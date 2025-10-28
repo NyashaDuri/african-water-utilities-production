@@ -1,6 +1,6 @@
-# :earth_americas: GDP dashboard template
+# 🌍: Utilities Dashboard
 
-A simple Streamlit app showing the GDP of different countries in the world.
+A simple Streamlit app showing production data from African utilities 
 
 [![Open in Streamlit](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://awup-dashboard-template.streamlit.app/)
 
