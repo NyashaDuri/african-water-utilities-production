@@ -1,0 +1,81 @@
+Variables,Frequency,Granularity,Description,General CSV Name,Category (Proposed),Category (Secondary),Category (Reference)
+date,daily,source,Date,production_,Production,,
+source,daily,source,Extraction source,production_,Production,,
+production_m3,daily,source,Production volume,production_,Production,,
+service_hours,daily,source,Number of hours of service,production_,Production,,
+date,monthly,customer,Date,billing_,Billing/Finance,,
+customer_id,monthly,customer,Customer ID,billing_,Billing/Finance,,
+consumption_m3,monthly,customer,Monthly water consumption per customer (would be same as what was billed),billing_,Production,Billing/Finance,
+billed,monthly,customer,Total billed amount per customer per month,billing_,Billing/Finance,,
+paid,monthly,customer,Total paid amount per customer per month,billing_,Billing/Finance,,
+popn_total,annual,zones,Total population in each zone (in thousands),w_access_,Access,,
+zone,annual,zones,Administrative zone identifier,w_access_,Access,,
+surface_water,annual,zones,Population percentage using surface water,w_access_,Access,,
+unimproved,annual,zones,Population percentage using unimproved sources,w_access_,Access,,
+limited,annual,zones,Population percentage with limited access,w_access_,Access,,
+basic,annual,zones,Population percentage with basic access,w_access_,Access,,
+safely_managed,annual,zones,Population percentage with safely managed access,w_access_,Access,,
+date,annual,zones,,w_access_,Access,,
+households,annual,zones,,w_access_,Access,,
+municipal_coverage,annual,zones,Population coverage under municipal water supply,w_access_,Access,,
+popn_total,annual,zones,,s_access_,Access,,
+zone,annual,zones,,s_access_,Access,,
+open_def,annual,zones,Population practising open defecation,s_access_,Access,,
+unimproved,annual,zones,,s_access_,Access,,
+limited,annual,zones,,s_access_,Access,,
+basic,annual,zones,,s_access_,Access,,
+safely_managed,annual,zones,,s_access_,Access,,
+date,annual,zones,,s_access_,Access,,
+households,annual,zones,,s_access_,Access,,
+date,monthly,zones,,s_service_,,,
+households,annual,zones,,s_service_,Access,,
+sewer_connections,monthly,zones,,s_service_,Access,,
+public_toilets,monthly,zones,public toilets maintained,s_service_,,,Production
+workforce,monthly,zones,sanitation managerial workforce,s_service_,,,Production
+f_workforce,monthly,zones,sanitation female managerial workforce,s_service_,,,Production
+ww_collected,monthly,zones,Volume of wastewater collected monthly per zone,s_service_,Production,Billing/Finance,
+ww_treated,monthly,zones,Volume of wastewater treated monthly per zone,s_service_,Production,,
+ww_reused,monthly,zones,Volume of treated wastewater reused monthly per zone,s_service_,Production,,
+w_supplied,monthly,zones,Total volume of water supplied per zone per month,s_service_,Production,,
+hh_emptied,monthly,zones,households with emptied sanitation systems per month,s_service_,Access,,
+fs_treated,monthly,zones,Volume of faecal sludge treated per zone per month,s_service_,Production,,
+fs_reused,monthly,zones,Volume of treated faecal sludge reused per zone per month,s_service_,Production,,
+households,annual,zones,,w_service_,Service,,Production
+date,monthly,zones,,w_service_,Service,,Production
+tests_chlorine,monthly,zones,Number of chlorine tests required per month per zone,w_service_,Service,,Production
+tests_ecoli,monthly,zones,Number of E. coli tests required per month per zone,w_service_,Service,,Production
+tests_conducted_chlorine,monthly,zones,Number of chlorine tests actually conducted per month,w_service_,Service,,Production
+test_conducted_ecoli,monthly,zones,Number of E. coli tests actually conducted per month,w_service_,Service,,Production
+test_passed_chlorine,monthly,zones,Number of chlorine tests that passed per month,w_service_,Service,,Production
+tests_passed_ecoli,monthly,zones,Number of E. coli tests that passed per month,w_service_,Service,,Production
+w_supplied,monthly,zones,Total volume of water supplied per zone per month,w_service_,Service,,Production
+total_consumption,monthly,zones,Total water consumption estimated across all sources per month,w_service_,Production,Service,
+metered,monthly,zones,water consumption recorded through meters,w_service_,Service,,Production
+ww_capacity,monthly,zones,Total wastewater treatment capacity per zone per month,w_service_,Service,,Production
+zone,monthly,zones,,w_service_,Service,,Production
+date,monthly,city,,all_fin_service_,,,
+complaints,monthly,city,Total complaints received monthly at city level,all_fin_service_,Service,,
+resolved,monthly,city,Total complaints resolved monthly at city level,all_fin_service_,Service,,
+sewer_length,annual,city,Total sewer network length (km) maintained per year,all_fin_service_,Production,,
+blocks,monthly,city,Number of sewer blockages reported monthly,all_fin_service_,Production,,
+sewer_billed,monthly,city,Total sewer billing per month (UGX),all_fin_service_,Billing/Finance,,
+sewer_revenue,monthly,city,Total sewer revenue collected per month (UGX),all_fin_service_,Billing/Finance,,
+opex,monthly,city,Monthly operational expenditure (UGX),all_fin_service_,Production,,
+san_staff,monthly,city,Number of sanitation staff employed monthly,all_fin_service_,,,Production
+w_staff,monthly,city,Number of water staff employed monthly,all_fin_service_,Production,,
+propoor_popn,monthly,city,Proportion of total population in pro-poor category,all_fin_service_,Access,,
+date,annual,city,,all_nationalacc_,,,
+budget_allocated,annual,city,total allocated budget_WASH,all_nationalacc_,Production,,
+san_allocation,annual,city,% sanitation allocation,all_nationalacc_,Production,,
+wat_allocation,annual,city,% water allocation,all_nationalacc_,Production,,
+staff_cost,annual,city,staff cost - annual HR,all_nationalacc_,Billing/Finance,,
+water_resources,annual,city,total renewable resources available,all_nationalacc_,Production,,Production
+trained_staff,annual,city,trained staff,all_nationalacc_,,,Production
+complaint_resolution,annual,city,complaint resolution time,all_nationalacc_,Service,,
+registered_wtps,annual,city,registered water treatment plants,all_nationalacc_,Production,,
+inspected_wtps,annual,city,inspected wtps,all_nationalacc_,Production,,
+total_service_providers,annual,city,private and public service providers,all_nationalacc_,Production,,
+licensed_service_providers,annual,city,licensed service providers,all_nationalacc_,Production,,
+asset_health,annual,city,asset health index,all_nationalacc_,,,Production
+staff_training_budget,annual,city,budget allocated for staff management,all_nationalacc_,,,Production
+consumption_m3,monthly,customer,Monthly water consumption per customer,billing_,Production,Billing/Finance,
