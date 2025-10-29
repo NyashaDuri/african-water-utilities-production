@@ -1,8 +1,8 @@
-# 🌍: Utilities Dashboard
+# 🌍: Africa Utilities Production Dashboard
 
-A simple Streamlit app showing production data from African utilities 
+A simple Streamlit app showing production data from African utilities.
 
-[![Open in Streamlit](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://awup-dashboard-template.streamlit.app/)
+[![Open in Streamlit](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://awup-dashboard.streamlit.app/)
 
 ### How to run it on your own machine
 
